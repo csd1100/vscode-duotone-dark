@@ -22,6 +22,7 @@ export type Palette = {
 
   INVISIBLES: string;
   INVALID: string;
+  INVALID_TRANSPARENT: string;
   DEPRECATED: string;
 };
 
@@ -43,6 +44,7 @@ export const Sea: Palette = {
   DUO_3: "#42675A",
   INVISIBLES: "#303F4F",
   INVALID: "#F92672",
+  INVALID_TRANSPARENT: "#F9267290",
   DEPRECATED: "#AE81FF",
 };
 
@@ -64,6 +66,7 @@ export const Space: Palette = {
   DUO_3: "#644c40",
   INVISIBLES: "#3a3a4a",
   INVALID: "#F92672",
+  INVALID_TRANSPARENT: "#F9267290",
   DEPRECATED: "#AE81FF",
 };
 
@@ -85,6 +88,7 @@ export const Forest: Palette = {
   DUO_3: "#747a52",
   INVISIBLES: "#424842",
   INVALID: "#F92672",
+  INVALID_TRANSPARENT: "#F9267290",
   DEPRECATED: "#AE81FF",
 };
 
@@ -106,6 +110,7 @@ export const Sky: Palette = {
   DUO_3: "#765f4c",
   INVISIBLES: "#443d51",
   INVALID: "#F92672",
+  INVALID_TRANSPARENT: "#F9267290",
   DEPRECATED: "#AE81FF",
 };
 
@@ -127,5 +132,6 @@ export const Earth: Palette = {
   DUO_3: "#726546",
   INVISIBLES: "#48413d",
   INVALID: "#F92672",
+  INVALID_TRANSPARENT: "#F9267290",
   DEPRECATED: "#AE81FF",
 };

@@ -30,6 +30,8 @@ export function generateTheme(name: string, palette: Palette): Theme {
     colors: {
       focusBorder: palette.FOREGROUND,
 
+      "icon.foreground": palette.FOREGROUND,
+
       "textLink.foreground": palette.FOREGROUND,
       "textLink.activeForeground": palette.FOREGROUND_ALT,
 
@@ -47,15 +49,24 @@ export function generateTheme(name: string, palette: Palette): Theme {
       "input.border": palette.BACKGROUND_ALT,
       "input.foreground": palette.FOREGROUND_ALT,
       "input.background": palette.BACKGROUND_ALT,
+      "inputOption.activeBorder": palette.FOREGROUND,
+      "inputOption.activeBackground": palette.FOREGROUND_TRANSPARENT,
+      "inputValidation.errorForeground": palette.FOREGROUND_ALT,
+      "inputValidation.errorBackground": palette.INVALID_TRANSPARENT,
+      "inputValidation.errorBorder": palette.INVALID,
 
       "dropdown.border": palette.BACKGROUND_ALT,
       "dropdown.foreground": palette.FOREGROUND_ALT,
       "dropdown.background": palette.BACKGROUND_ALT,
 
+      "widget.border": palette.FOREGROUND,
+
       "titleBar.activeBackground": palette.BACKGROUND,
       "titleBar.activeForeground": palette.FOREGROUND,
       "titleBar.inactiveBackground": palette.BACKGROUND_ALT,
       "titleBar.inactiveForeground": palette.FOREGROUND_ALT,
+
+      "commandCenter.debuggingBackground": palette.FOREGROUND_TRANSPARENT,
 
       "tab.activeBackground": palette.BACKGROUND_ALT,
       "tab.activeForeground": palette.FOREGROUND_ALT,
@@ -111,6 +122,15 @@ export function generateTheme(name: string, palette: Palette): Theme {
       "statusBar.noFolderBackground": palette.BACKGROUND,
       "statusBar.debuggingForeground": palette.BACKGROUND,
       "statusBar.debuggingBackground": palette.FOREGROUND,
+
+      "settings.headerForeground": palette.FOREGROUND,
+      "settings.modifiedItemIndicator": palette.FOREGROUND,
+      "settings.dropdownBackground": palette.BACKGROUND,
+      "settings.dropdownForeground": palette.FOREGROUND_ALT,
+      "settings.dropdownBorder": palette.FOREGROUND_ALT,
+      "settings.dropdownListBorder": palette.BACKGROUND,
+      "settings.checkboxForeground": palette.FOREGROUND,
+      "settings.checkboxBorder": palette.FOREGROUND,
     },
     tokenColors: [
       {
