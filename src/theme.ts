@@ -41,6 +41,7 @@ export type Palette = {
   DUO_2: string;
   DUO_3: string;
 
+  INVISIBLES: string;
   INVALID: string;
   DEPRECATED: string;
 };
@@ -49,8 +50,33 @@ export function generateTheme(name: string, palette: Palette): Theme {
   return {
     name: name,
     colors: {
+      focusBorder: palette.FOREGROUND,
+
+      "button.border": palette.FOREGROUND,
+      "button.foreground": palette.BACKGROUND,
+      "button.background": palette.FOREGROUND,
+
+      "progressBar.background": palette.FOREGROUND,
+
+      "breadcrumb.foreground": palette.FOREGROUND_ALT,
+
+      "badge.foreground": palette.BACKGROUND,
+      "badge.background": palette.FOREGROUND,
+
+      "editorWidget.border": palette.FOREGROUND,
+      "editorWidget.foreground": palette.FOREGROUND_ALT,
+      "editorWidget.background": palette.BACKGROUND_ALT,
+
+      "input.border": palette.BACKGROUND_ALT,
+      "input.foreground": palette.FOREGROUND_ALT,
+      "input.background": palette.BACKGROUND_ALT,
+
+      "dropdown.border": palette.BACKGROUND_ALT,
+      "dropdown.foreground": palette.FOREGROUND_ALT,
+      "dropdown.background": palette.BACKGROUND_ALT,
+
       "titleBar.activeBackground": palette.BACKGROUND,
-      "titleBar.activeForeground": palette.UNO_2,
+      "titleBar.activeForeground": palette.FOREGROUND,
       "titleBar.inactiveBackground": palette.BACKGROUND_ALT,
       "titleBar.inactiveForeground": palette.FOREGROUND_ALT,
 
@@ -61,9 +87,26 @@ export function generateTheme(name: string, palette: Palette): Theme {
       "editorGroupHeader.tabsBackground": palette.BACKGROUND,
 
       "activityBar.background": palette.BACKGROUND,
-      "activityBar.foreground": palette.UNO_2,
+      "activityBar.foreground": palette.FOREGROUND,
+      "activityBarBadge.foreground": palette.BACKGROUND,
+      "activityBarBadge.background": palette.FOREGROUND,
 
-      "sideBar.background": palette.BACKGROUND_ALT,
+      "sideBar.background": palette.BACKGROUND,
+      "sideBarTitle.foreground": palette.FOREGROUND,
+      "sideBarSectionHeader.background": palette.BACKGROUND_ALT,
+
+      "list.focusOutline": palette.BACKGROUND_ALT,
+      "list.focusForeground": palette.UNO_2,
+      "list.focusBackground": palette.BACKGROUND_ALT,
+      "list.hoverForeground": palette.UNO_2,
+      "list.hoverBackground": palette.BACKGROUND_ALT,
+      "list.focusAndSelectionOutline": palette.BACKGROUND,
+      "list.activeSelectionForeground": palette.DUO_1,
+      "list.activeSelectionIconForeground": palette.DUO_1,
+      "list.activeSelectionBackground": palette.BACKGROUND_ALT,
+      "list.inactiveSelectionForeground": palette.DUO_1,
+      "list.inactiveSelectionBackground": palette.BACKGROUND_ALT,
+      "list.inactiveSelectionIconForeground": palette.DUO_1,
 
       "editor.foreground": palette.FOREGROUND,
       "editor.background": palette.BACKGROUND,
@@ -71,7 +114,7 @@ export function generateTheme(name: string, palette: Palette): Theme {
       "editor.lineHighlightBackground": palette.BACKGROUND_ALT,
       "editorCursor.foreground": palette.DUO_1,
       "editorCursor.background": palette.BACKGROUND,
-      "editorWhitespace.foreground": palette.FOREGROUND_ALT,
+      "editorWhitespace.foreground": palette.INVISIBLES,
 
       "statusBar.background": palette.BACKGROUND,
     },
@@ -93,7 +136,7 @@ export function generateTheme(name: string, palette: Palette): Theme {
         name: "Comment in Params",
         scope: "meta.parameters comment.block",
         settings: {
-          foreground: palette.DUO_3,
+          foreground: palette.UNO_4,
           fontStyle: "italic",
         },
       },
