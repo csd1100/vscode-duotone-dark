@@ -31,6 +31,9 @@ export type Palette = {
   BACKGROUND_ALT: string;
   FOREGROUND_ALT: string;
 
+  BACKGROUND_TRANSPARENT: string;
+  FOREGROUND_TRANSPARENT: string;
+
   UNO_1: string;
   UNO_2: string;
   UNO_3: string;
@@ -52,6 +55,9 @@ export function generateTheme(name: string, palette: Palette): Theme {
     colors: {
       focusBorder: palette.FOREGROUND,
 
+      "textLink.foreground": palette.FOREGROUND,
+      "textLink.activeForeground": palette.FOREGROUND_ALT,
+
       "button.border": palette.FOREGROUND,
       "button.foreground": palette.BACKGROUND,
       "button.background": palette.FOREGROUND,
@@ -62,10 +68,6 @@ export function generateTheme(name: string, palette: Palette): Theme {
 
       "badge.foreground": palette.BACKGROUND,
       "badge.background": palette.FOREGROUND,
-
-      "editorWidget.border": palette.FOREGROUND,
-      "editorWidget.foreground": palette.FOREGROUND_ALT,
-      "editorWidget.background": palette.BACKGROUND_ALT,
 
       "input.border": palette.BACKGROUND_ALT,
       "input.foreground": palette.FOREGROUND_ALT,
@@ -110,14 +112,30 @@ export function generateTheme(name: string, palette: Palette): Theme {
 
       "editor.foreground": palette.FOREGROUND,
       "editor.background": palette.BACKGROUND,
+      "editor.wordHighlightBackground": palette.FOREGROUND_TRANSPARENT,
       "editor.selectionBackground": palette.BACKGROUND_ALT,
       "editor.lineHighlightBackground": palette.BACKGROUND_ALT,
       "editorCursor.foreground": palette.DUO_1,
       "editorCursor.background": palette.BACKGROUND,
       "editorWhitespace.foreground": palette.INVISIBLES,
 
+      "editorWidget.border": palette.FOREGROUND,
+      "editorWidget.foreground": palette.FOREGROUND_ALT,
+      "editorWidget.background": palette.BACKGROUND_ALT,
+
+      "editorGutter.addedBackground": palette.DUO_1,
+      "editorGutter.addedSecondaryBackground": palette.DUO_2,
+      "editorGutter.modifiedBackground": palette.UNO_1,
+      "editorGutter.modifiedSecondaryBackground": palette.UNO_3,
+      "editorGutter.deletedBackground": palette.INVALID,
+      "editorGutter.deletedSecondaryBackground": palette.DEPRECATED,
+
+      "panelTitle.activeForeground": palette.FOREGROUND,
+
       "statusBar.background": palette.BACKGROUND,
       "statusBar.noFolderBackground": palette.BACKGROUND,
+      "statusBar.debuggingForeground": palette.BACKGROUND,
+      "statusBar.debuggingBackground": palette.FOREGROUND,
     },
     tokenColors: [
       {
