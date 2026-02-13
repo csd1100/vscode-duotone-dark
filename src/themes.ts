@@ -2,13 +2,16 @@ export type Palette = {
   name: string;
 
   BACKGROUND: string;
-  FOREGROUND: string;
-
   BACKGROUND_ALT: string;
-  FOREGROUND_ALT: string;
-
   BACKGROUND_TRANSPARENT: string;
-  FOREGROUND_TRANSPARENT: string;
+
+  FOREGROUND_UNO: string;
+  FOREGROUND_UNO_ALT: string;
+  FOREGROUND_UNO_TRANSPARENT: string;
+
+  FOREGROUND_DUO: string;
+  FOREGROUND_DUO_ALT: string;
+  FOREGROUND_DUO_TRANSPARENT: string;
 
   UNO_1: string;
   UNO_2: string;
@@ -29,11 +32,14 @@ export type Palette = {
 export const Sea: Palette = {
   name: "Sea",
   BACKGROUND: "#1D262F",
-  FOREGROUND: "#88b4e7",
   BACKGROUND_ALT: "#232D38",
-  FOREGROUND_ALT: "#d6e9ff",
   BACKGROUND_TRANSPARENT: "#1D262F30",
-  FOREGROUND_TRANSPARENT: "#88b4e730",
+  FOREGROUND_UNO: "#88b4e7",
+  FOREGROUND_UNO_ALT: "#d6e9ff",
+  FOREGROUND_UNO_TRANSPARENT: "#88b4e730",
+  FOREGROUND_DUO: "#34FEBB",
+  FOREGROUND_DUO_ALT: "#e6fff6",
+  FOREGROUND_DUO_TRANSPARENT: "#34FEBB30",
   UNO_1: "#d6e9ff",
   UNO_2: "#88b4e7",
   UNO_3: "#5d8cc0",
@@ -51,11 +57,14 @@ export const Sea: Palette = {
 export const Space: Palette = {
   name: "Space",
   BACKGROUND: "#24242e",
-  FOREGROUND: "#8686cb",
   BACKGROUND_ALT: "#2B2B36",
-  FOREGROUND_ALT: "#bebeef",
   BACKGROUND_TRANSPARENT: "#24242e30",
-  FOREGROUND_TRANSPARENT: "#8686cb30",
+  FOREGROUND_UNO: "#8686cb",
+  FOREGROUND_UNO_ALT: "#bebeef",
+  FOREGROUND_UNO_TRANSPARENT: "#8686cb30",
+  FOREGROUND_DUO: "#fe7734",
+  FOREGROUND_DUO_ALT: "##ffeee6",
+  FOREGROUND_DUO_TRANSPARENT: "#fe773430",
   UNO_1: "#bebeef",
   UNO_2: "#8686cb",
   UNO_3: "#7272a1",
@@ -73,11 +82,14 @@ export const Space: Palette = {
 export const Forest: Palette = {
   name: "Forest",
   BACKGROUND: "#2a2d2a",
-  FOREGROUND: "#a9bca9",
   BACKGROUND_ALT: "#313531",
-  FOREGROUND_ALT: "#ddf8dd",
   BACKGROUND_TRANSPARENT: "#2a2d2a30",
-  FOREGROUND_TRANSPARENT: "#a9bca930",
+  FOREGROUND_UNO: "#a9bca9",
+  FOREGROUND_UNO_ALT: "#ddf8dd",
+  FOREGROUND_UNO_TRANSPARENT: "#a9bca930",
+  FOREGROUND_DUO: "#e7f98b",
+  FOREGROUND_DUO_ALT: "##fafee7",
+  FOREGROUND_DUO_TRANSPARENT: "#e7f98b30",
   UNO_1: "#ddf8dd",
   UNO_2: "#a9bca9",
   UNO_3: "#869886",
@@ -95,11 +107,14 @@ export const Forest: Palette = {
 export const Sky: Palette = {
   name: "Sky",
   BACKGROUND: "#2c2734",
-  FOREGROUND: "#cab2fa",
   BACKGROUND_ALT: "#342E3D",
-  FOREGROUND_ALT: "#f1ebff",
   BACKGROUND_TRANSPARENT: "#2c273430",
-  FOREGROUND_TRANSPARENT: "#cab2fa30",
+  FOREGROUND_UNO: "#cab2fa",
+  FOREGROUND_UNO_ALT: "#f1ebff",
+  FOREGROUND_UNO_TRANSPARENT: "#cab2fa30",
+  FOREGROUND_DUO: "#fec38f",
+  FOREGROUND_DUO_ALT: "#fff1e6",
+  FOREGROUND_DUO_TRANSPARENT: "#fec38f30",
   UNO_1: "#f1ebff",
   UNO_2: "#cab2fa",
   UNO_3: "#ae91e8",
@@ -117,11 +132,14 @@ export const Sky: Palette = {
 export const Earth: Palette = {
   name: "Earth",
   BACKGROUND: "#2c2826",
-  FOREGROUND: "#bd987f",
   BACKGROUND_ALT: "#35302D",
-  FOREGROUND_ALT: "#ffdac2",
   BACKGROUND_TRANSPARENT: "#2c282630",
-  FOREGROUND_TRANSPARENT: "#bd987f30",
+  FOREGROUND_UNO: "#bd987f",
+  FOREGROUND_UNO_ALT: "#ffdac2",
+  FOREGROUND_UNO_TRANSPARENT: "#bd987f30",
+  FOREGROUND_DUO: "#fecb52",
+  FOREGROUND_DUO_ALT: "##fff7e6",
+  FOREGROUND_DUO_TRANSPARENT: "#fecb5230",
   UNO_1: "#ffdac2",
   UNO_2: "#bd987f",
   UNO_3: "#98755d",
