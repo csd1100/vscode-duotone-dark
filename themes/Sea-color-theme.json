@@ -1,8 +1,30 @@
 {
+  "name": "DuoTone Dark Sea",
+  "colors": {
+    "titleBar.activeBackground": "#1D262F",
+    "titleBar.activeForeground": "#88b4e7",
+    "titleBar.inactiveBackground": "#1D262F",
+    "titleBar.inactiveForeground": "#5d8cc0",
+    "tab.activeBackground": "#1D262F",
+    "tab.activeForeground": "#d6e9ff",
+    "tab.inactiveBackground": "#1D262F",
+    "tab.inactiveForeground": "#88b4e7",
+    "editorGroupHeader.tabsBackground": "#1D262F",
+    "activityBar.background": "#1D262F",
+    "activityBar.foreground": "#88b4e6",
+    "sideBar.background": "#1E252E",
+    "editor.background": "#1D262F",
+    "editorCursor.foreground": "#34FEBB",
+    "editorCursor.background": "#1D262F",
+    "editor.foreground": "#88b4e7",
+    "editorWhitespace.foreground": "#303F4F",
+    "editor.lineHighlightBackground": "#232D38",
+    "editor.selectionBackground": "#354454",
+    "statusBar.background": "#1D262F"
+  },
   "tokenColors": [
     {
       "settings": {
-        "background": "#1D262F",
         "foreground": "#88b4e7"
       }
     },
@@ -179,25 +201,23 @@
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
-        "background": "#F92672",
-        "fontStyle": "",
-        "foreground": "#F8F8F0"
+        "foreground": "#F92672",
+        "fontStyle": "italic underline"
       }
     },
     {
       "name": "Invalid deprecated",
       "scope": "invalid.deprecated",
       "settings": {
-        "background": "#AE81FF",
-        "foreground": "#F8F8F0"
+        "foreground": "#AE81FF",
+        "fontStyle": "italic underline"
       }
     },
     {
       "name": "Punctuation Meta",
       "scope": ["meta.brace", "punctuation"],
       "settings": {
-        "foreground": "#444c55",
-        "background": ""
+        "foreground": "#444c55"
       }
     },
     {
@@ -247,14 +267,5 @@
         "foreground": "#5d8cc0"
       }
     }
-  ],
-  "colors": {
-    "editor.background": "#1D262F",
-    "editorCursor.foreground": "#34FEBB",
-    "editor.foreground": "#88b4e7",
-    "editorWhitespace.foreground": "#303F4F",
-    "editor.lineHighlightBackground": "#232D38",
-    "editor.selectionBackground": "#354454"
-  },
-  "name": "DuoTone Dark Sea"
+  ]
 }

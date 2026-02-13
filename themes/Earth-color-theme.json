@@ -1,8 +1,30 @@
 {
+  "name": "DuoTone Dark Earth",
+  "colors": {
+    "titleBar.activeBackground": "#2c2826",
+    "titleBar.activeForeground": "#bd987f",
+    "titleBar.inactiveBackground": "#2c2826",
+    "titleBar.inactiveForeground": "#98755d",
+    "tab.activeBackground": "#2c2826",
+    "tab.activeForeground": "#ffdac2",
+    "tab.inactiveBackground": "#2c2826",
+    "tab.inactiveForeground": "#bd987f",
+    "editorGroupHeader.tabsBackground": "#2c2826",
+    "activityBar.background": "#2c2826",
+    "activityBar.foreground": "#bd987f",
+    "sideBar.background": "#2B2625",
+    "editor.background": "#2c2826",
+    "editorCursor.foreground": "#fecb52",
+    "editorCursor.background": "#2c2826",
+    "editor.foreground": "#bd987f",
+    "editorWhitespace.foreground": "#48413d",
+    "editor.lineHighlightBackground": "#35302D",
+    "editor.selectionBackground": "#4D4642",
+    "statusBar.background": "#2c2826"
+  },
   "tokenColors": [
     {
       "settings": {
-        "background": "#2c2826",
         "foreground": "#bd987f"
       }
     },
@@ -179,25 +201,22 @@
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
-        "background": "#F92672",
         "fontStyle": "",
-        "foreground": "#F8F8F0"
+        "foreground": "#F92672"
       }
     },
     {
       "name": "Invalid deprecated",
       "scope": "invalid.deprecated",
       "settings": {
-        "background": "#AE81FF",
-        "foreground": "#F8F8F0"
+        "foreground": "#AE81FF"
       }
     },
     {
       "name": "Punctuation Meta",
       "scope": ["meta.brace", "punctuation"],
       "settings": {
-        "foreground": "#564b43",
-        "background": ""
+        "foreground": "#564b43"
       }
     },
     {
@@ -247,14 +266,5 @@
         "foreground": "#98755d"
       }
     }
-  ],
-  "colors": {
-    "editor.background": "#2c2826",
-    "editorCursor.foreground": "#fecb52",
-    "editor.foreground": "#bd987f",
-    "editorWhitespace.foreground": "#48413d",
-    "editor.lineHighlightBackground": "#35302D",
-    "editor.selectionBackground": "#4D4642"
-  },
-  "name": "DuoTone Dark Earth"
+  ]
 }
