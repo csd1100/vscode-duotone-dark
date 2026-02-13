@@ -22,10 +22,10 @@
     "titleBar.activeForeground": "#bd987f",
     "titleBar.inactiveBackground": "#35302D",
     "titleBar.inactiveForeground": "#ffdac2",
-    "tab.activeBackground": "#2c2826",
-    "tab.activeForeground": "#bd987f",
-    "tab.inactiveBackground": "#35302D",
-    "tab.inactiveForeground": "#ffdac2",
+    "tab.activeBackground": "#35302D",
+    "tab.activeForeground": "#ffdac2",
+    "tab.inactiveBackground": "#2c2826",
+    "tab.inactiveForeground": "#bd987f",
     "editorGroupHeader.tabsBackground": "#2c2826",
     "activityBar.background": "#2c2826",
     "activityBar.foreground": "#bd987f",
@@ -53,7 +53,8 @@
     "editorCursor.foreground": "#fecb52",
     "editorCursor.background": "#2c2826",
     "editorWhitespace.foreground": "#48413d",
-    "statusBar.background": "#2c2826"
+    "statusBar.background": "#2c2826",
+    "statusBar.noFolderBackground": "#2c2826"
   },
   "tokenColors": [
     {

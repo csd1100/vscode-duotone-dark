@@ -80,10 +80,10 @@ export function generateTheme(name: string, palette: Palette): Theme {
       "titleBar.inactiveBackground": palette.BACKGROUND_ALT,
       "titleBar.inactiveForeground": palette.FOREGROUND_ALT,
 
-      "tab.activeBackground": palette.BACKGROUND,
-      "tab.activeForeground": palette.FOREGROUND,
-      "tab.inactiveBackground": palette.BACKGROUND_ALT,
-      "tab.inactiveForeground": palette.FOREGROUND_ALT,
+      "tab.activeBackground": palette.BACKGROUND_ALT,
+      "tab.activeForeground": palette.FOREGROUND_ALT,
+      "tab.inactiveBackground": palette.BACKGROUND,
+      "tab.inactiveForeground": palette.FOREGROUND,
       "editorGroupHeader.tabsBackground": palette.BACKGROUND,
 
       "activityBar.background": palette.BACKGROUND,
@@ -117,6 +117,7 @@ export function generateTheme(name: string, palette: Palette): Theme {
       "editorWhitespace.foreground": palette.INVISIBLES,
 
       "statusBar.background": palette.BACKGROUND,
+      "statusBar.noFolderBackground": palette.BACKGROUND,
     },
     tokenColors: [
       {
