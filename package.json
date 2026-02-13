@@ -49,5 +49,6 @@
   },
   "homepage": "https://github.com/sallar/vscode-duotone-dark#readme",
   "license": "MIT",
-  "author": "Sallar Kaboli <sallar.kaboli@gmail.com>"
+  "author": "Sallar Kaboli <sallar.kaboli@gmail.com>",
+  "type": "module"
 }
