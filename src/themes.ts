@@ -1,4 +1,29 @@
-import { Palette } from "./theme.ts";
+export type Palette = {
+  name: string;
+
+  BACKGROUND: string;
+  FOREGROUND: string;
+
+  BACKGROUND_ALT: string;
+  FOREGROUND_ALT: string;
+
+  BACKGROUND_TRANSPARENT: string;
+  FOREGROUND_TRANSPARENT: string;
+
+  UNO_1: string;
+  UNO_2: string;
+  UNO_3: string;
+  UNO_4: string;
+  UNO_5: string;
+
+  DUO_1: string;
+  DUO_2: string;
+  DUO_3: string;
+
+  INVISIBLES: string;
+  INVALID: string;
+  DEPRECATED: string;
+};
 
 export const Sea: Palette = {
   name: "Sea",
